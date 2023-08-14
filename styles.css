@@ -1,0 +1,61 @@
+.chart {
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(6, 100px);
+    justify-content: center;
+}
+
+.price {
+    place-self: center;
+    grid-column: 2 / 2;
+    border: 1px solid black;
+    padding: 10px;
+}
+.var1 {
+    place-self: center;
+    grid-column: 3 / 3;
+    border: 1px solid black;
+    padding: 10px;
+}
+.var2 {
+    place-self: center;
+    grid-column: 4 / 4;
+    border: 1px solid black;
+    padding: 10px;
+}
+.var3 {
+    place-self: center;
+    grid-column: 5 / 5;
+    border: 1px solid black;
+    padding: 10px;
+}
+.obj1 {
+   place-self: center;
+    grid-row: 2 / 2;
+    border: 1px solid black;
+    padding: 10px;
+}
+.obj2 {
+    place-self: center;
+    grid-row: 3 / 3;
+    border: 1px solid black;
+    padding: 10px;
+}
+.obj3{
+    place-self: center;
+    grid-row: 4 / 4;
+    border: 1px solid black;
+    padding: 10px;
+}
+.obj4{
+    place-self: center;
+    grid-row: 5 / 5;
+    border: 1px solid black;
+    padding: 10px;
+}
+.obj5{
+    place-self: center;
+    grid-row: 6 / 6;
+    border: 1px solid black;
+    padding: 10px;
+}
